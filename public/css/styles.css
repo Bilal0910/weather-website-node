@@ -96,3 +96,73 @@ form button {
 .container {
     font-size: 18px;
 }
+
+/* General mobile styles */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+        padding: 0 8px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .potrait {
+        width: 150px;
+    }
+
+    form input {
+        width: 100%; /* Full width for mobile */
+        margin-bottom: 5px ;
+    }
+
+    form button {
+        width: 50%; /* Full width for mobile */
+        margin: 0 auto;
+        display: block;
+        
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        font-size: 18px;
+        padding: 0 12px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .potrait {
+        width: 200px;
+    }
+
+    form input {
+        width: 300px; /* Adjusted width for tablet */
+    }
+
+    form button {
+        width: 70px; /* Adjusted width for tablet */
+        margin: 0 auto;
+        display: block;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+}
+
+/* Adjust footer for all smaller screens */
+@media (max-width: 900px) {
+    footer {
+        text-align: center;
+        font-size: 14px;
+    }
+}
