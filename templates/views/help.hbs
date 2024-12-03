@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="icon" href="./img/weather-icon.png">
+        <title>Help</title>
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>{{helpText}}</p>
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <ul>
+                    <li>
+                        <strong>1. How can I check the weather for my
+                            location?</strong>
+                        <p>Simply type the name of your city or location into
+                            the search bar on the homepage. Our system will
+                            provide real-time weather updates, including
+                            temperature, wind speed, and more.</p>
+                    </li>
+                    <li>
+                        <strong>2. How accurate is the weather data?</strong>
+                        <p>Our weather data is sourced from trusted APIs to
+                            ensure accuracy and reliability.</p>
+                    </li>
+                    <li>
+                        <strong>3. What features does this website
+                            offer?</strong>
+                        <ul>
+                            <li>Real-time weather updates</li>
+                            <li>Forecasts for multiple locations</li>
+                            <li>User-friendly search functionality</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>4. What should I do if the location I searched
+                            isn’t found?</strong>
+                        <p>Ensure the name is spelled correctly. If the problem
+                            persists, feel free to contact us using the form on
+                            the Contact Us page.</p>
+                    </li>
+                    <li>
+                        <strong>5. How do I report an issue or give
+                            feedback?</strong>
+                        <p>Visit our Contact Us page to share your concerns or
+                            suggestions. Your input helps us improve!</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        {{>footer}}
+    </body>
+</html>
